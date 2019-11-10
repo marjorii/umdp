@@ -1,0 +1,55 @@
+{
+  "options": {
+    "speed": 2,
+    "duration": {
+      "min": 3000,
+      "max": 10000
+    }
+  },
+  "chapters": [
+    {
+      "urn": "",
+      "title": "Chapitre 1",
+      "index": 0,
+      "text": [
+        [
+          "<p></p>"
+        ],
+        [
+          "<p></p>"
+        ]
+      ],
+      "subChapters": [
+        {
+          "int": [1,1],
+          "medias": [
+            {
+              "type": "img",
+              "title": ".jpg"
+            },
+            {
+              "type": "img",
+              "title": ".gif"
+            },
+            {
+              "type": "audio",
+              "title": ".ogg"
+            },
+            [
+              {
+                "type": "img",
+                "title": ".jpg"
+              },
+              {
+                "type": "video",
+                "title": ".ogg"
+              }
+            ]
+          ]
+        },
+        { ... }
+      ]
+    },
+    { ... },
+  ]
+}

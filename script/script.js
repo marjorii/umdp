@@ -5,7 +5,6 @@ async function initProject() {
     json = createUrls(json);
 
     allChapter = new AllChapter(json);
-    console.log(window.location.href);
 
     if (window.location.href.split("#")[1] !== "hidebox") {
         document.getElementById("white-block").classList.remove("hide");
